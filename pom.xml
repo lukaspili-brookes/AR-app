@@ -2,10 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.siu.android</groupId>
-    <artifactId>thereversi</artifactId>
+    <artifactId>arapp</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>apk</packaging>
     <name>Augmented Reality app</name>
+
+    <repositories>
+        <repository>
+            <id>siu-repository</id>
+            <url>https://github.com/Siu-soon/maven-repo/raw/master/releases</url>
+        </repository>
+        <repository>
+            <id>siu-repository-snapshots</id>
+            <url>https://github.com/Siu-soon/maven-repo/raw/master/snapshots</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <!-- Android -->
