@@ -10,11 +10,7 @@
     <repositories>
         <repository>
             <id>siu-repository</id>
-            <url>https://github.com/Siu-soon/maven-repo/raw/master/releases</url>
-        </repository>
-        <repository>
-            <id>siu-repository-snapshots</id>
-            <url>https://github.com/Siu-soon/maven-repo/raw/master/snapshots</url>
+            <url>http://siu-soon.com/maven2</url>
         </repository>
     </repositories>
 
